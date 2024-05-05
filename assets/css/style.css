@@ -41473,6 +41473,12 @@ header.style-3.four .nav-right .icon-list li:first-child svg {
     transform: translate(-50%, -50%) scale(1);
     opacity: 1
 }
+@media only screen and (max-width:768px){
+    .destination-card .content {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1
+    }
+}
 
 .home1-destination-section {
     position: relative
