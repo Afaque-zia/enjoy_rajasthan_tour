@@ -67383,4 +67383,10 @@ header.style-3.four .nav-right .icon-list li:first-child svg {
         transform: translate(-50%, -50%) scale(1);
         opacity: 1
     }
+    .breadcrumb-section .banner-content .breadcrumb-list{
+        flex-direction: column;
+    }
+    .breadcrumb-section .banner-content .breadcrumb-list li{
+        padding-left: 0px;
+    }
 }
