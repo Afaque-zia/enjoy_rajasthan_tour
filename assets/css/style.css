@@ -41473,12 +41473,6 @@ header.style-3.four .nav-right .icon-list li:first-child svg {
     transform: translate(-50%, -50%) scale(1);
     opacity: 1
 }
-@media only screen and (max-width:768px){
-    .destination-card .content {
-        transform: translate(-50%, -50%) scale(1);
-        opacity: 1
-    }
-}
 
 .home1-destination-section {
     position: relative
@@ -67371,4 +67365,22 @@ header.style-3.four .nav-right .icon-list li:first-child svg {
 
 .tour-facilites-section .nav-tabs .nav-item .nav-link.active svg {
     fill: var(--primary-color1)
+}
+
+@media only screen and (max-width:768px){
+    #activities .verticle-tab-sidebar{
+        overflow-x: auto;
+    }
+    #activities .verticle-tab-sidebar .nav.nav-pills{
+        display: flex !important;
+        gap:20px;
+        flex-wrap: nowrap !important;
+    }
+    #activities .verticle-tab-sidebar .nav-pills .nav-item .nav-link{
+        width: 125px;
+    }
+    .destination-card .content {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1
+    }
 }
