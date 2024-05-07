@@ -67384,7 +67384,7 @@ header.style-3.four .nav-right .icon-list li:first-child svg {
         opacity: 1
     }
     .breadcrumb-section .banner-content .breadcrumb-list{
-        flex-direction: column;
+        flex-direction: column ;
     }
     .breadcrumb-section .banner-content .breadcrumb-list li{
         padding-left: 0px;
